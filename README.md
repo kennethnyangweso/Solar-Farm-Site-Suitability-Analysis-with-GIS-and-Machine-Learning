@@ -87,8 +87,15 @@ The dataset includes spatial and tabular features related to:
 
 <img width="640" height="529" alt="image" src="https://github.com/user-attachments/assets/e155ea8e-7e06-4f62-beb3-c61772d012fc" />
 
+### Key Insights 
 
+- This map visualizes the spatial distribution of photovoltaic (PV) power output potential across Kenya.
 
+- Warmer colors (yellow–red) represent higher solar potential,
+
+- Cooler tones (green–blue) denote lower PV output.
+
+- The correlation heatmap shows pairwise relationships between resource layers. High correlation between GHI, GTI, and PVOUT is expected since PVOUT derives from irradiance; this indicates redundancy.
 
 
 ---
@@ -96,7 +103,10 @@ The dataset includes spatial and tabular features related to:
 ## 🤖 Modeling Approach
 
 ### 1️⃣ Regression Modeling
-The regression approach predicts a **continuous suitability score** for each location based on multiple environmental and infrastructural variables.
+
+- The regression approach predicts  **PVOUT** for each location based on multiple environmental and infrastructural variables.
+
+- Model used is the Random Forest Regressor
 
 **Metrics Evaluated**
 - R² Score  
@@ -121,14 +131,14 @@ The classification approach categorizes each area into suitability classes:
 ## 📈 Performance & Evaluation
 
 ### ✅ Regression Evaluation
-- R² Score  
-- RMSE  
-- Error Distribution  
+- R² Score -  0.99
+- RMSE - 1.46
+- MAE  -  0.45
 
 ### ✅ Classification Evaluation
-- Accuracy  
-- Precision / Recall / F1-score  
-- ROC-AUC (if applicable)  
+- Accuracy  - 0.99
+- Precision / Recall / F1-score  - 0.99
+
 
 ---
 
