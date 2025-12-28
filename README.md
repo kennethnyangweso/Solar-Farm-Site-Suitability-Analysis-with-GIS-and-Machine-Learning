@@ -58,8 +58,6 @@ The dataset includes spatial and tabular features related to:
 - Solar radiation  
 - Elevation, Terrain & Slope  
 - Land Use / Land Cover  
-- Distance to roads & infrastructure  
-- Weather & climate properties  
 - Administrative boundaries  
 
 **Data Formats Used**
@@ -73,14 +71,25 @@ The dataset includes spatial and tabular features related to:
 ### 🌍 Spatial Analysis
 - Raster visualization  
 - Spatial overlay analysis  
-- Suitability index mapping  
-- Heatmaps and spatial distribution plots  
 
 ### 📊 Descriptive / Statistical Analysis
 - Distribution of key variables  
 - Correlation analysis  
-- Outlier inspection  
-- Feature importance overview  
+
+
+### 📊 Visuals 
+
+<img width="428" height="529" alt="image" src="https://github.com/user-attachments/assets/5cb968d1-1a65-4609-a86a-5783cfd1b8a7" />
+
+<img width="861" height="984" alt="image" src="https://github.com/user-attachments/assets/eaea484a-9835-4891-ab6f-a152bf0006b0" />
+
+<img width="784" height="384" alt="image" src="https://github.com/user-attachments/assets/ca3cd2c9-2106-46f7-90d7-42ea896902a6" />
+
+<img width="640" height="529" alt="image" src="https://github.com/user-attachments/assets/e155ea8e-7e06-4f62-beb3-c61772d012fc" />
+
+
+
+
 
 ---
 
