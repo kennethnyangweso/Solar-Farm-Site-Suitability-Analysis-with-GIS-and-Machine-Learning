@@ -145,14 +145,14 @@ The classification approach categorizes each area into suitability classes:
 ## 🖼️ Visualizations
 
 ### 📌 Confusion Matrix  
-_Add confusion matrix image here_
+
+<img width="610" height="473" alt="image" src="https://github.com/user-attachments/assets/1a2327b1-e720-463f-9b34-fe0792b9479c" />
+
 
 ### 📌 Actual vs Predicted Values  
-_Add regression comparison plot here_
 
-### 📌 Spatial Suitability Maps
-- Final suitability raster map  
-- Classified suitability zoning map  
+<img width="784" height="584" alt="image" src="https://github.com/user-attachments/assets/e8d44227-887b-49b0-9b25-e381ee5133a1" />
+
 
 ---
 
@@ -170,12 +170,13 @@ venv\\Scripts\\activate    # Windows
 
 # Install dependencies
 pip install -r requirements.txt
+```
 
-# Deployment
+## 🚀 Deployment
 
-##  Model Deployment Procedure (Flask + React + Tailwind CSS)
+### 📜  Model Deployment Procedure (Flask + React + Tailwind CSS)
 
-1. Project Overview
+1. Overview
 
 - This deployment setup serves two separate models — one for regression (PVOUT prediction) and another for classification (site suitability) — using a Flask backend for the APIs and a React + Tailwind CSS frontend for visualization and interaction.
 
@@ -230,6 +231,11 @@ pip install -r requirements.txt
 - Start React (npm start).
 
 - Input sample data and confirm predictions appear on the dashboard.
+
+▶️ Usage
+
+python main.py
+
 
 # Results
 <img width="1355" height="614" alt="React App - Google Chrome 11_11_2025 1_36_42 PM" src="https://github.com/user-attachments/assets/00b9eedd-0249-42c4-8e70-784e79cdeb32" />
