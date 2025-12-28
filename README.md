@@ -234,11 +234,44 @@ pip install -r requirements.txt
 
 ▶️ Usage
 
-python main.py
+    python main.py
 
+```bash
+# Run Flask backend
+python app.py
 
-# Results
+# Run React frontend
+npm install
+npm start
+
+```
+
+## 🖥️ Results
 <img width="1355" height="614" alt="React App - Google Chrome 11_11_2025 1_36_42 PM" src="https://github.com/user-attachments/assets/00b9eedd-0249-42c4-8e70-784e79cdeb32" />
 
 <img width="1351" height="605" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/afa21713-679a-477e-8968-9cf0ce8db80e" />
 
+---
+
+## 💡 Future Improvements
+
+- Include additional geospatial variables
+
+- Integrate satellite time-series analysis
+
+- Deploy on cloud platforms
+
+## 🤝 Contributions
+
+Contributions are welcome! Feel free to fork, enhance, and submit a pull request.
+
+## 🙌 Acknowledgment
+
+Special thanks to the open-source GIS and Machine Learning community.
+
+## 👨‍💻 Author
+
+**Kenneth Nyangweso**  
+Data Scientist | GIS & Machine Learning Engineer  
+
+🔗 GitHub: [kennethnyangweso](https://github.com/kennethnyangweso)  
