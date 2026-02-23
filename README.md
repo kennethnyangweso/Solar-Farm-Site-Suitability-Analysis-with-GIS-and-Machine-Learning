@@ -1,4 +1,4 @@
-# 🌞 Solar Farm Site Suitability Analysis with GIS & Machine Learning
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3fe0a62b-d426-4dee-b28b-1bf539ace69a" />
 
 ## 🔰 Badges
 
